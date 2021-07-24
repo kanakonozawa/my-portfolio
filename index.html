@@ -6,11 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Encode+Sans+SC:wght@100;200&display=swap" rel="stylesheet">
+
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <div class="first-black">
+      <div class=first-left>
+        <p>Kanako<br>Nozawa</p>
+      </div>
+        <img id="sky-image" src="./images/002.jpg" class="first-right"/>
+    </div>
+    <div class="second-black">
+      <img id="about-image" src="./images/001.jpg" class="second-left" />
+      <div class="second-right">
+        <H1>~~about~~</H1>
+        大学：聖心女子大学文学部<br>
+        サークル：弓道<br>
+        趣味：邦楽ロック、漫画、おいしいもの<br>
+        作成物：
+        <a href="https://doricole.herokuapp.com/">飲み物に特化した共有サイト</a>
+        /
+        <a href="https://student.redesigner.jp/portfolios/PF403e57367f210c2293f9936456e8977e">朝活継続のアプリデザイン</a>
+        <div>
+          <h2>クイズ！ノザワカナコの出身地は？</h2>
+          <button id="choice-1" class="btn-flat-vertical-border">東京</button>
+          <button id="choice-2" class="btn-flat-vertical-border">静岡</button>
+          <button id="choice-3" class="btn-flat-vertical-border">岐阜</button>
+        </div>
+        <div id="feedback"></div>
+      <script src="main.js"></script>
+      </div>
+    </div>
+    <div class="third-black">
+      <p>最近食べた美味しいものたち☺</p>
+      <img src="./images/003.jpg" id="slide_img" class="slider" />
+
+    </div>
   </body>
 </html>
 
